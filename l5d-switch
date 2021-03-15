@@ -1,0 +1,8 @@
+#!/bin/bash
+
+version=$1
+
+cd ~/.linkerd2/bin
+rm linkerd
+ln -s linkerd-$version linkerd
+
